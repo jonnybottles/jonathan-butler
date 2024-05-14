@@ -1,10 +1,14 @@
 
-.jon-head-shot {
-    border-radius: 50%;
-    height: 350px;
+.headshot-div {
+    margin-top: 100px;
 }
 
-.code-computer {
-    width: 1400px;
-    height: 400px;
+.jon-head-shot {
+    /*border-radius: 50%;*/
+    min-height: 100px;
+    max-height: 350px;
+}
+
+.footer-container {
+    margin-top: 50px;
 }
