@@ -1,0 +1,22 @@
+
+
+#skills-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills-div {
+    border: 5px solid gold;
+    height: 100px;
+    width: 100px;
+}
