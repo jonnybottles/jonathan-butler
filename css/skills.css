@@ -1,5 +1,4 @@
 
-
 #skills-section {
     display: flex;
     justify-content: center;
@@ -8,15 +7,26 @@
     margin-top: 100px;
 }
 
-.skills-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.containers-with-border {
+    border: 3px solid ; /* Adjust the border size and color as needed */
+    padding: 20px; /* Optional: Add padding inside the border for better spacing */
+    /*border-radius: 10px; !* Optional: Add rounded corners if desired *!*/
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    max-width: 900px;
+    width: 100%;
+    /*margin: 0 auto;*/
+    margin-bottom: 60px;
+    margin-top: 40px;
 }
 
-.skills-div {
-    border: 5px solid gold;
-    height: 100px;
-    width: 100px;
+.cybersecurity-container {
+    border-color: #711DB0;
+}
+
+.software-development-container {
+    border-color: #C21292;
+}
+
+.system-network-admin-container {
+    border-color: #FFA732;
 }
