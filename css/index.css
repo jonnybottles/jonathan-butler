@@ -1,14 +1,28 @@
 
+/*#top-nav-bar {*/
+/*    display: none;*/
+/*}*/
+
+.hidden {
+    visibility: hidden;
+}
+
+
 .headshot-div {
     margin-top: 100px;
 }
 
+/*.hi-jonathan {*/
+/*    display: none;*/
+/*}*/
+
 .jon-head-shot {
-    /*border-radius: 50%;*/
     min-height: 100px;
     max-height: 350px;
 }
 
 .footer-container {
     margin-top: 50px;
+
 }
+
