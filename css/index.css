@@ -3,13 +3,23 @@
 /*    display: none;*/
 /*}*/
 
+.top-nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+
 .hidden {
     visibility: hidden;
 }
 
 
 .headshot-div {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 /*.hi-jonathan {*/
