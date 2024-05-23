@@ -1,6 +1,6 @@
 $(".jon-head-shot-hi").addClass("hidden");
 $(".cybersecurity-professional").addClass("hidden");
-$(".footer-container").addClass("hidden");
+// $(".footer-container").addClass("hidden");
 
 setTimeout(() => {
     $(".jon-head-shot-hi").removeClass("hidden");
@@ -18,3 +18,8 @@ setTimeout(() => {
     $(".top-nav-bar").animate({ top: "0px" }, 750); // Slide down smoothly
 
 }, 3500);
+
+setTimeout(() => {
+    $(".footer-container").css("bottom", "0px"); // Slide up smoothly
+}, 3500); // Adjust delay as needed
+
