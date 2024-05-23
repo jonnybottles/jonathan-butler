@@ -3,14 +3,26 @@
 /*    display: none;*/
 /*}*/
 
+/*index.css*/
+
 .top-nav-bar {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: -100px; /* Initially positioned above the viewport */
     left: 0;
     width: 100%;
-    display: none; /* Initially hidden */
     z-index: 1000; /* Ensure it appears above other content */
+    display: block; /* Ensure it is displayed */
 }
+
+/*.footer-container {*/
+/*    position: absolute;*/
+/*    bottom: -100px; !* Hide it initially below the viewport *!*/
+/*    width: 100%;*/
+/*    display: none; !* Initially hidden *!*/
+/*    z-index: 1000; !* Ensure it appears above other content *!*/
+/*    transition: bottom 0.75s; !* Smooth transition for bottom property *!*/
+/*}*/
+
 
 
 .hidden {
