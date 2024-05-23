@@ -1,20 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 #skills-section {
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
     margin-top: 100px;
 }
 
 .containers-with-border {
-    border: 3px solid ; /* Adjust the border size and color as needed */
+    border: 3px solid; /* Adjust the border size and color as needed */
     padding: 20px; /* Optional: Add padding inside the border for better spacing */
-    /*border-radius: 10px; !* Optional: Add rounded corners if desired *!*/
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     max-width: 900px;
     width: 100%;
-    /*margin: 0 auto;*/
     margin-bottom: 60px;
     margin-top: 40px;
 }
@@ -29,4 +36,8 @@
 
 .system-network-admin-container {
     border-color: #FFA732;
+}
+
+.footer-container {
+    margin-top: 50px;
 }

@@ -20,7 +20,7 @@
     width: 100%;
     z-index: 1000; /* Ensure it appears above other content */
     transition: bottom 0.75s; /* Smooth transition for bottom property */
-    /*background-color: white; !* Ensure background color for visibility *!*/
+    /*background-color: rgb(33, 37, 41); !* Ensure background color for visibility *!*/
 }
 
 .hidden {

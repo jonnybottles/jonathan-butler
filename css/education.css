@@ -1,0 +1,21 @@
+
+/*education.css file*/
+
+.education-div {
+    margin-top: 100px;
+}
+
+.education-content {
+    font-size: 16px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.education-content em {
+    font-style: italic;
+}
+
+.footer-container {
+    margin-top: 50px;
+
+}
