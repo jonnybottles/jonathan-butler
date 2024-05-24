@@ -31,9 +31,16 @@
     visibility: hidden;
 }
 
-
 .headshot-div {
     margin-top: 200px;
+}
+
+.jon-head-shot-hi {
+    visibility: hidden;
+}
+
+.cybersecurity-professional {
+    visibility: hidden;
 }
 
 /*.hi-jonathan {*/
