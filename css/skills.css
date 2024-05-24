@@ -16,6 +16,7 @@ body {
     margin-top: 100px;
 }
 
+
 .containers-with-border {
     border: 3px solid; /* Adjust the border size and color as needed */
     padding: 20px; /* Optional: Add padding inside the border for better spacing */
@@ -26,7 +27,7 @@ body {
     margin-top: 40px;
 }
 
-li {
+.top-nav-bar li {
     margin-bottom: 10px;
 }
 

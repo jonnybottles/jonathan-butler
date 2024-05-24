@@ -14,6 +14,10 @@
     display: block; /* Ensure it is displayed */
 }
 
+/*.home-class {*/
+/*    padding-bottom: 10px;*/
+/*}*/
+
 .footer-container {
     position: relative;
     bottom: -100px; /* Hide it initially below the viewport */
