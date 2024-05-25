@@ -1,8 +1,30 @@
+.translucent-nav {
+    background: rgba(0, 0, 0, 0.7); /* Adjust the alpha value to make it more or less translucent */
+}
 
-/*education.css file*/
+/*#banner {*/
+/*    background-image: url('../images/design_bannerv2.jpg'); !* Ensure this path is correct *!*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    position: relative;*/
+/*    height: 400px; !* Adjust the height as needed *!*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: white;*/
+/*    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);*/
+/*}*/
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 .education-div {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .education-content {
@@ -23,9 +45,8 @@
 }
 
 #training-and-education-section h2 {
-    margin-top:100px;
+    margin-top: 100px;
 }
-
 
 .badge-grid-div {
     margin-top: 50px;
@@ -40,14 +61,6 @@
     width: 110px;
 }
 
-/*.sec_plus_badge {*/
-/*    height: 120px !important;*/
-/*    width: 120px !important;*/
-/*}*/
-
-
-
 .footer-container {
     margin-top: 50px;
-
 }
