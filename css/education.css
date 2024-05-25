@@ -7,17 +7,13 @@
 
 .education-content {
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: sans-serif;
 }
 
 .education-content em {
     font-style: italic;
 }
-
-/*.badge-col {*/
-/*    border: 3px solid;*/
-/*}*/
 
 #training-and-education-section {
     margin-top: 100px;
@@ -26,8 +22,13 @@
     align-items: flex-start;
 }
 
+#training-and-education-section h2 {
+    margin-top:100px;
+}
+
+
 .badge-grid-div {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .badge-grid-div .col {
