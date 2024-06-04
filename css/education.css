@@ -1,19 +1,31 @@
-.translucent-nav {
-    background: rgba(0, 0, 0, 0.7); /* Adjust the alpha value to make it more or less translucent */
+/* Black to Dark Blue to Deep Sea Blue */
+.gradient-background {
+    background: linear-gradient(300deg,  #000033, #003366, #252525, #212529);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
 }
 
-/*#banner {*/
-/*    background-image: url('../images/design_bannerv2.jpg'); !* Ensure this path is correct *!*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    position: relative;*/
-/*    height: 400px; !* Adjust the height as needed *!*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    color: white;*/
-/*    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);*/
-/*}*/
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+.container-fluid > p {
+    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-weight:450;
+}
 
 .banner-text {
     position: absolute;
@@ -24,7 +36,7 @@
 }
 
 .education-div {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .education-content {
