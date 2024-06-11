@@ -5,17 +5,17 @@
     animation: gradient-animation 20s ease infinite;
 }
 
-  @keyframes gradient-animation {
+@keyframes gradient-animation {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
 .container-fluid {
     width: 100%;
@@ -24,7 +24,7 @@
 
 .container-fluid > p {
     font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
-    font-weight:450;
+    font-weight: 450;
 }
 
 .banner-text {
@@ -51,13 +51,14 @@
 
 #training-and-education-section {
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 #training-and-education-section h2 {
     margin-top: 100px;
+}
+
+.badge-grid-container {
+    margin-bottom: 30px;
 }
 
 .badge-grid-div {
@@ -71,6 +72,10 @@
 .badge-grid-div img {
     height: 110px;
     width: 110px;
+}
+
+.additional-skills-container {
+    margin-top: 20px;
 }
 
 .footer-container {
