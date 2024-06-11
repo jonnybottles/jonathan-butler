@@ -58,7 +58,7 @@
 }
 
 .badge-grid-container {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .badge-grid-div {
@@ -74,9 +74,19 @@
     width: 110px;
 }
 
-.additional-skills-container {
-    margin-top: 20px;
+.additional-schools-container {
+    margin-top: 50px;
 }
+
+.additional-schools-list-div {
+    margin-top: 58px;
+}
+
+.additional-schools-container li {
+    text-align: left;
+}
+
+
 
 .footer-container {
     margin-top: 50px;
