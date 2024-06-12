@@ -79,14 +79,16 @@
 }
 
 .additional-schools-list-div {
-    margin-top: 58px;
+    margin-top: 42px;
 }
 
 .additional-schools-container li {
     text-align: left;
 }
 
-
+.col-container {
+    margin-top: 0px;
+}
 
 .footer-container {
     margin-top: 50px;
