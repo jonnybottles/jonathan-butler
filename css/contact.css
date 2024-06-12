@@ -1,0 +1,78 @@
+/* Black to Dark Blue to Deep Sea Blue */
+.gradient-background {
+    background: linear-gradient(300deg,  #000033, #003366, #252525, #212529);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+}
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+.container-fluid > p {
+    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-weight:450;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.honors-div {
+    margin-top: 100px;
+}
+
+.honors-activities-content {
+    font-size: 16px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.honors-content em {
+    font-style: italic;
+}
+
+#training-and-education-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#training-and-education-section h2 {
+    margin-top: 100px;
+}
+
+.badge-grid-div {
+    margin-top: 50px;
+}
+
+.badge-grid-div .col {
+    padding: 10px;
+}
+
+.badge-grid-div img {
+    height: 110px;
+    width: 110px;
+}
+
+.footer-container {
+    margin-top: 50px;
+}
