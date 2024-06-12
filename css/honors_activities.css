@@ -37,6 +37,14 @@
 
 .honors-div {
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+.activities-div {
+    margin-top: 100px;
+}
+
+.activities-div h2{
+    margin-top: 100px;
 }
 
 .honors-activities-content {
