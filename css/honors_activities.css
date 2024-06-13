@@ -5,17 +5,17 @@
     animation: gradient-animation 20s ease infinite;
 }
 
-@keyframes gradient-animation {
+  @keyframes gradient-animation {
     0% {
-        background-position: 0% 50%;
+      background-position: 0% 50%;
     }
     50% {
-        background-position: 100% 50%;
+      background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+      background-position: 0% 50%;
     }
-}
+  }
 
 .container-fluid {
     width: 100%;
@@ -23,8 +23,8 @@
 }
 
 .container-fluid > p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 450;
+    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-weight:450;
 }
 
 .banner-text {
@@ -35,30 +35,37 @@
     text-align: center;
 }
 
-.education-div {
+.honors-div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.activities-div {
     margin-top: 100px;
 }
 
-.education-content {
+.activities-div h2{
+    margin-top: 100px;
+}
+
+.honors-activities-content {
     font-size: 16px;
     margin-top: 50px;
     font-family: sans-serif;
 }
 
-.education-content em {
+.honors-content em {
     font-style: italic;
 }
 
 #training-and-education-section {
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 #training-and-education-section h2 {
     margin-top: 100px;
-}
-
-.badge-grid-container {
-    margin-bottom: 100px;
 }
 
 .badge-grid-div {
@@ -72,22 +79,6 @@
 .badge-grid-div img {
     height: 110px;
     width: 110px;
-}
-
-.additional-schools-container {
-    margin-top: 50px;
-}
-
-.additional-schools-list-div {
-    margin-top: 42px;
-}
-
-.additional-schools-container li {
-    text-align: left;
-}
-
-.col-container {
-    margin-top: 0px;
 }
 
 .footer-container {

@@ -1,9 +1,4 @@
 
-/*#top-nav-bar {*/
-/*    display: none;*/
-/*}*/
-
-/*index.css*/
 
 .top-nav-bar {
     position: fixed;
@@ -14,31 +9,30 @@
     display: block; /* Ensure it is displayed */
 }
 
-/*.home-class {*/
-/*    padding-bottom: 10px;*/
-/*}*/
-
 .footer-container {
     position: relative;
     bottom: -100px; /* Hide it initially below the viewport */
     width: 100%;
     z-index: 1000; /* Ensure it appears above other content */
     transition: bottom 0.75s; /* Smooth transition for bottom property */
-    /*background-color: rgb(33, 37, 41); !* Ensure background color for visibility *!*/
 }
 
 .hidden {
     visibility: hidden;
 }
 
-
 .headshot-div {
     margin-top: 200px;
 }
 
-/*.hi-jonathan {*/
-/*    display: none;*/
-/*}*/
+.jon-head-shot-hi {
+    visibility: hidden;
+}
+
+.cybersecurity-professional {
+    visibility: hidden;
+}
+
 
 .jon-head-shot {
     min-height: 100px;

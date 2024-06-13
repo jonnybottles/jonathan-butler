@@ -1,0 +1,75 @@
+/*projects.css*/
+
+/* Black to Dark Blue to Deep Sea Blue */
+.gradient-background {
+    background: linear-gradient(300deg,  #000033, #003366, #252525, #212529);
+    background-size: 180% 180%;
+    animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+.container-fluid > p {
+    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-weight: 450;
+}
+
+.projects-div {
+    margin-top: 100px;
+}
+
+.other-projects {
+    margin-top: 100px;
+}
+
+/* .other-projects .btn {
+    background-color: #003366;
+    color: white;
+} */
+
+.carousel-inner {
+    margin-top: 30px;
+}
+
+.margin-top-100 {
+    margin-top: 100px !important;
+}
+
+/* Ensure h2 link text is not blue and remove underline */
+.other-projects a h2 {
+    color: inherit; /* Use the inherited color from the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover if desired */
+.other-projects a h2:hover {
+    color: #003366;
+}
+
+/* Ensure links within .other-projects do not show blue underline */
+.other-projects a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.other-projects a:hover {
+    text-decoration: underline;
+    color: #003366; /* Change color on hover if desired */
+}
+
+
