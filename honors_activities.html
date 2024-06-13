@@ -7,15 +7,16 @@
 				rel="stylesheet"
 				integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 				crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/contact.css">
+	<link rel="stylesheet" href="css/honors_activities.css">
 </head>
 <body>
 <section id="top-nav-bar"></section>
 <div class="px-3 py-3 text-bg-dark border-bottom">
 	<div class="container">
 		<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-			<a href="./index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-				<img src="../images/index_images/jb_logo_v4.png" alt="Logo" width="45px" height="35px" class="d-block mx-auto mb-1">
+			<a href="index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+				<img src="images/index_images/jb_logo_v4.png" alt="Logo" width="45px" height="35px" class="d-block mx-auto mb-1">
+
 			</a>
 			<ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small mb">
 				<li>
@@ -29,22 +30,22 @@
 					</a>
 				</li>
 				<li>
-					<a href="./education.html" class="nav-link text-white">
+					<a href="education.html" class="nav-link text-white">
 						Education
 					</a>
 				</li>
 				<li>
-					<a href="./projects.html" class="nav-link text-white">
+					<a href="projects.html" class="nav-link text-white">
 						Projects
 					</a>
 				</li>
 				<li>
-					<a href="./honors_activities.html" class="nav-link text-white">
+					<a href="./honors_activities.html" class="nav-link text-secondary">
 						Honors & Activities
 					</a>
 				</li>
 				<li>
-					<a href="./contact.html" class="nav-link text-secondary">
+					<a href="contact.html" class="nav-link text-white">
 						Contact
 					</a>
 				</li>
@@ -53,52 +54,67 @@
 	</div>
 </div>
 
+
 <!-- Gradient Background Section -->
 <section id="banner" class="gradient-background">
-	<div class="container-fluid d-flex justify-content-center align-items-center pt-5 gradient-background">
-		<p class="text-center text-white display-3 mb-5">CONTACT</p>
+<div class="container-fluid d-flex justify-content-center align-items-center pt-5 gradient-background">
+	<p class="text-center text-white display-3 mb-5">HONORS & ACTIVITIES</p>
+	<!-- <div class="text-block-6">Skills</div> -->
+</div>
+</section>
+
+
+
+<section id="honors">
+	<div class="container themed-container text-center honors-div">
+		<h2>Honors</h2>
+		<p class="honors-activities-content"><strong>U.S. Cyber Challenge Capture the Flag</strong><br>
+			<em>Winner - 2015</em>
+		</p>
+
+		<p class="honors-activities-content"><strong>U.S. Cyber Challenge Cyber Quest Competition </strong><br>
+			<em>Finalist - 2013 & 2015</em>
+		</p>
+
+		<p class="honors-activities-content"><strong>USMC Information Assurance Managers Course </strong><br>
+			<em>Valedictorian - 2012</em>
+		</p>
+		<p class="honors-activities-content"><strong>USMC Data Systems Technicians Course</strong><br>
+			<em>Salutatorian - 2009</em>
+		</p>
+	</div>
+
+
+</section>
+
+<section id="activities">
+
+	<div class="container themed-container text-center activities-div">
+		<hr>
+		<h2>Activities</h2>
+		<p class="honors-activities-content"><strong>Middle / High School Instructor: Python & Web Development </strong><br>
+			<em>2023 - 2024</em>
+		</p>
+		<p class="honors-activities-content"><strong>Black Hat Conference Attendee</strong><br>
+			<em>2015, 2018, 2021</em>
+		</p>
+
+		<p class="honors-activities-content"><strong>DEFCON Conference Attendee </strong><br>
+			<em>2011, 2015, 2018, 2021</em>
+		</p>
+
+		<p class="honors-activities-content"><strong>Missouri National Guard Cyber Conference Attendee</strong><br>
+			<em>2017</em>
+		</p>
+		<p class="honors-activities-content"><strong>SANS Digital Forensics and Incident Response Summit</strong><br>
+			<em>2015</em>
+		</p>
+		<p class="honors-activities-content"><strong>Cyber Patriot Mentor</strong><br>
+			<em>2013</em>
+		</p>
 	</div>
 </section>
 
-<!-- Contact Form Section -->
-<section id="contact" class="py-5">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 text-center mb-4">
-				<h2 class="display-6">Let's Connect</h2>
-				<p class="lead">Have a question? Drop me a message!</p>
-			</div>
-			<div class="col-md-8 col-lg-6">
-				<form action="https://formspree.io/f/mbjnnypv" method="post" class="row g-3 needs-validation contact-form" novalidate>
-					<div class="col-12">
-						<label for="name" class="form-label">Name</label>
-						<input type="text" class="form-control" id="name" name="name" required>
-						<div class="invalid-feedback">
-							Please enter your name.
-						</div>
-					</div>
-					<div class="col-12">
-						<label for="email" class="form-label">Email</label>
-						<input type="email" class="form-control" id="email" name="email" required>
-						<div class="invalid-feedback">
-							Please enter a valid email address.
-						</div>
-					</div>
-					<div class="col-12">
-						<label for="message" class="form-label">Message</label>
-						<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-						<div class="invalid-feedback">
-							Please enter a message.
-						</div>
-					</div>
-					<div class="col-12 text-center">
-						<button class="btn" type="submit">Send Message</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
 
 <section id="footer">
 
@@ -136,7 +152,6 @@
 	</div>
 
 </section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></script>
-<script src="../js/conatct.js"></script>
+
 </body>
 </html>
