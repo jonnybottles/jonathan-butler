@@ -23,7 +23,7 @@
 }
 
 .container-fluid > p {
-    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-family: 'Montserrat', sans-serif;
     font-weight:450;
 }
 
@@ -35,48 +35,11 @@
     text-align: center;
 }
 
-.honors-div {
-    margin-top: 100px;
-}
-
-.honors-activities-content {
+label {
     font-size: 16px;
-    margin-top: 50px;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: black; /* Make sure the color matches your design */
 }
-
-.honors-content em {
-    font-style: italic;
-}
-
-#training-and-education-section {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-#training-and-education-section h2 {
-    margin-top: 100px;
-}
-
-.badge-grid-div {
-    margin-top: 50px;
-}
-
-.badge-grid-div .col {
-    padding: 10px;
-}
-
-.badge-grid-div img {
-    height: 110px;
-    width: 110px;
-}
-
-.footer-container {
-    margin-top: 50px;
-}
-
 /* Form Styles */
 /*.contact-form {*/
 /*    border: 2px solid #000; !* Black border *!*/
