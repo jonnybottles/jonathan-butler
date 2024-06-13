@@ -5,17 +5,17 @@
     animation: gradient-animation 20s ease infinite;
 }
 
-  @keyframes gradient-animation {
+@keyframes gradient-animation {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
 .container-fluid {
     width: 100%;
@@ -40,6 +40,7 @@ label {
     font-family: 'Montserrat', sans-serif;
     color: black; /* Make sure the color matches your design */
 }
+
 /* Form Styles */
 /*.contact-form {*/
 /*    border: 2px solid #000; !* Black border *!*/
@@ -49,7 +50,8 @@ label {
 
 .contact-form .form-control {
     border: 1px solid #444; /* Border color for inputs */
-    color: #fff; /* White font for inputs */
+    color: #000; /* Black font for inputs */
+    background-color: #fff; /* White background for inputs */
 }
 
 .contact-form .form-label {
