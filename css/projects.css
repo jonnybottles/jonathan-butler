@@ -1,8 +1,6 @@
-/*projects.css*/
-
-/* Black to Dark Blue to Deep Sea Blue */
+/* Gradient Background Animation */
 .gradient-background {
-    background: linear-gradient(300deg,  #000033, #003366, #252525, #212529);
+    background: linear-gradient(300deg, #000033, #003366, #252525, #212529);
     background-size: 180% 180%;
     animation: gradient-animation 20s ease infinite;
 }
@@ -19,29 +17,28 @@
     }
 }
 
+/* Ensure the container fluid takes up full width */
 .container-fluid {
     width: 100%;
     height: 250px;
 }
 
 .container-fluid > p {
-    font-family: 'Montserrat', sans-serif; /* You can change this to the desired font family */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 450;
 }
 
+/* Margin for projects section */
 .projects-div {
     margin-top: 100px;
 }
 
+/* Margin for other projects section */
 .other-projects {
     margin-top: 100px;
 }
 
-/* .other-projects .btn {
-    background-color: #003366;
-    color: white;
-} */
-
+/* Margin for carousel items */
 .carousel-inner {
     margin-top: 30px;
 }
@@ -52,8 +49,8 @@
 
 /* Ensure h2 link text is not blue and remove underline */
 .other-projects a h2 {
-    color: inherit; /* Use the inherited color from the parent element */
-    text-decoration: none; /* Remove underline */
+    color: inherit;
+    text-decoration: none;
 }
 
 /* Change color on hover if desired */
@@ -69,7 +66,17 @@
 
 .other-projects a:hover {
     text-decoration: underline;
-    color: #003366; /* Change color on hover if desired */
+    color: #003366;
 }
 
+/* Styles for project items */
+.project-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.project-item img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
