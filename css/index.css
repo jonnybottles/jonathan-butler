@@ -49,12 +49,15 @@
     }
 
     .headshot-div {
-        margin-top: 65px;
+        margin-top: 0;
+        padding-bottom: 0;
+        padding-top: 40px;
     }
 
     .footer-container {
         bottom: 0;
         position: relative;
+        margin-top: 0px;
     }
 
     .hidden {
