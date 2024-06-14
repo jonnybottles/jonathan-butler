@@ -93,3 +93,31 @@
 .footer-container {
     margin-top: 50px;
 }
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .container-fluid {
+        height: 125px; /* Half of the original 250px height */
+    }
+
+    .container-fluid > p {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+
+    .education-div, .badge-grid-container, .additional-schools-container {
+        margin-top: 50px; /* Reduce top margin for sections */
+    }
+
+    .education-content {
+        font-size: 14px; /* Slightly smaller font for mobile */
+    }
+
+    .badge-grid-div img {
+        height: 100px; /* Increase badge size for mobile */
+        width: 100px;  /* Increase badge size for mobile */
+    }
+
+    .additional-schools-list-div .col {
+        margin-bottom: 20px; /* Add bottom margin for spacing */
+    }
+}
