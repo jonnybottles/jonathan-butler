@@ -1,5 +1,4 @@
-
-
+/* index.css */
 .top-nav-bar {
     position: fixed;
     top: -100px; /* Initially positioned above the viewport */
@@ -33,7 +32,6 @@
     visibility: hidden;
 }
 
-
 .jon-head-shot {
     min-height: 100px;
     max-height: 350px;
@@ -41,6 +39,30 @@
 
 .footer-container {
     margin-top: 50px;
-
 }
 
+/* Mobile specific styles */
+@media (max-width: 768px) {
+    .top-nav-bar {
+        position: static;
+        top: 0;
+    }
+
+    .headshot-div {
+        margin-top: 65px;
+    }
+
+    .footer-container {
+        bottom: 0;
+        position: relative;
+    }
+
+    .hidden {
+        visibility: visible;
+    }
+
+    .jon-head-shot-hi,
+    .cybersecurity-professional {
+        visibility: visible;
+    }
+}
