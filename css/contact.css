@@ -1,3 +1,5 @@
+/* contact.css */
+
 /* Gradient Background Animation */
 .gradient-background {
     background: linear-gradient(300deg, #000033, #003366, #252525, #212529);
@@ -26,14 +28,10 @@
 .container-fluid > p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 450;
+
 }
 
-/* Adjust banner text size for mobile devices */
-@media (max-width: 768px) {
-    .container-fluid > p {
-        font-size: 2rem; /* Adjust as needed */
-    }
-}
+
 
 .banner-text {
     position: absolute;
@@ -41,6 +39,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.form-container {
+    margin-top: 100px;
 }
 
 label {
@@ -75,6 +77,14 @@ label {
 @media (max-width: 768px) {
     .contact-form .form-label {
         font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    .form-container {
+        margin-top: 25px;
+    }
+
+    .container-fluid > p {
+        font-size: 2rem; /* Adjust as needed */
     }
 
     .contact-form .form-control {

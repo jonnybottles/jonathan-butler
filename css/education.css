@@ -57,6 +57,10 @@
     margin-top: 100px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .badge-grid-container {
     margin-bottom: 100px;
 }
@@ -101,11 +105,25 @@
     }
 
     .container-fluid > p {
-        font-size: 1.5rem; /* Adjust font size for mobile */
+        font-size: 2rem; /* Adjust as needed */
     }
 
+
     .education-div, .badge-grid-container, .additional-schools-container {
-        margin-top: 50px; /* Reduce top margin for sections */
+        margin-top: 65px; /* Reduce top margin for sections */
+    }
+
+    #training-and-education-section {
+        margin-top: 65px;
+    }
+
+    #training-and-education-section h2 {
+        margin-top: 65px;
+    }
+
+
+    .badge-grid-container {
+        margin-bottom: 75px;
     }
 
     .education-content {

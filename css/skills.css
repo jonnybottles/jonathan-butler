@@ -19,6 +19,8 @@
     }
   }
 
+
+
 .container-fluid {
     width: 100%;
     height: 250px;
@@ -33,6 +35,10 @@ html, body {
     height: 100%;
     margin: 0;
     background-color: white;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -81,4 +87,16 @@ body {
 
 .footer-container {
     margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+    .container-fluid > p {
+        font-size: 2rem; /* Adjust as needed */
+    }
+
+
+    .container-fluid {
+        height: 125px; /* Half of the original 250px height */
+    }
 }

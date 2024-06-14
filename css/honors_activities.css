@@ -1,3 +1,5 @@
+/* honors_activities.css */
+
 /* Gradient Background Animation */
 .gradient-background {
     background: linear-gradient(300deg, #000033, #003366, #252525, #212529);
@@ -26,14 +28,15 @@
 .container-fluid > p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 450;
+
+
 }
 
-/* Adjust banner text size for mobile devices */
-@media (max-width: 768px) {
-    .container-fluid > p {
-        font-size: 2rem; /* Adjust as needed */
-    }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+
 }
+
 
 /* Margin for honors and activities sections */
 .honors-div, .activities-div {
@@ -89,11 +92,25 @@
         font-size: 14px; /* Adjust as needed */
     }
 
-    .activities-div h2, .honors-div h2 {
-        font-size: 2rem; /* Adjust as needed */
-    }
+    /*.activities-div h2, .honors-div h2 {*/
+    /*    font-size: 2rem; !* Adjust as needed *!*/
+    /*}*/
 
     .container-fluid {
         height: 125px; /* Half of the original 250px height */
+    }
+
+    /* Margin for honors and activities sections */
+    .honors-div, .activities-div {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .activities-div h2 {
+        margin-top: 65px;
+    }
+
+    .container-fluid > p {
+        font-size: 2rem; /* Adjust as needed */
     }
 }
