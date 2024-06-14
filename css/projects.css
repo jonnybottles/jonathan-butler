@@ -84,6 +84,11 @@
     .other-projects a::after {
         color: #003366; /* Ensure the arrow is visible */
     }
+
+    .container-fluid {
+        height: 125px; /* Half of the original 250px height */
+    }
+
 }
 
 /* Styles for project items */

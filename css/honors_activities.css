@@ -92,4 +92,8 @@
     .activities-div h2, .honors-div h2 {
         font-size: 2rem; /* Adjust as needed */
     }
+
+    .container-fluid {
+        height: 125px; /* Half of the original 250px height */
+    }
 }
