@@ -53,8 +53,17 @@
     text-decoration: none;
 }
 
+/*!* Add an icon next to links to indicate they are clickable *!*/
+/*.other-projects a::before {*/
+/*    content: ' \2192'; !* Unicode arrow symbol *!*/
+/*    font-size: 1rem;*/
+/*    margin-left: 5px;*/
+/*    display: inline-block;*/
+/*}*/
+
 /* Change color on hover if desired */
-.other-projects a h2:hover {
+.other-projects a:hover {
+    text-decoration: underline;
     color: #003366;
 }
 
@@ -64,9 +73,17 @@
     color: inherit;
 }
 
-.other-projects a:hover {
-    text-decoration: underline;
-    color: #003366;
+/* Ensure links are more apparent on mobile devices */
+@media (max-width: 768px) {
+    .other-projects a {
+        text-decoration: underline; /* Add underline to links on mobile */
+        color: #003366; /* Change color to make links stand out */
+    }
+
+    /* Optionally, you can add a specific color to indicate links */
+    .other-projects a::after {
+        color: #003366; /* Ensure the arrow is visible */
+    }
 }
 
 /* Styles for project items */
