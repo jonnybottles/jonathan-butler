@@ -101,9 +101,9 @@ body {
         font-size: 2rem; /* Adjust font size for mobile */
     }
 
-    .top-nav-bar li {
-        margin-bottom: 5px; /* Reduce margin for mobile */
-    }
+    /*.top-nav-bar li {*/
+    /*    margin-bottom: 5px; !* Reduce margin for mobile *!*/
+    /*}*/
 
     .cybersecurity-container,
     .software-development-container,
@@ -119,7 +119,4 @@ body {
         margin-top: 25px; /* Reduce top margin for mobile */
     }
 
-    .container-fluid > p {
-        font-size: 2rem; /* Adjust as needed */
-    }
 }
