@@ -100,6 +100,11 @@ a.project-link:hover, .other-projects a:hover {
     .margin-top-100 {
         margin-top: 75px !important; /* Ensures consistent spacing */
     }
+
+    /* Hide 'See the Code' buttons in carousels on mobile */
+    .carousel-caption a.btn {
+        display: none; /* Hides the button */
+    }
 }
 
 /* Styles for project items */
