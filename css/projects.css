@@ -52,68 +52,54 @@ h2 {
     margin-top: 100px !important;
 }
 
-/* Ensure h2 link text is not blue and remove underline */
-.other-projects a h2 {
-    color: inherit;
-    text-decoration: none;
+/* Standardize font size across all h2 project names */
+h2 {
+    font-family: 'Montserrat', sans-serif; /* Consistent font family */
+    font-size: 30px; /* Consistent font size across all project names */
+    color: inherit; /* Ensures color consistency */
+    text-align: center; /* Ensures text is centered */
+    margin: 0; /* Removes default margin from h2 to control spacing explicitly */
 }
 
-/*!* Add an icon next to links to indicate they are clickable *!*/
-/*.other-projects a::before {*/
-/*    content: ' \2192'; !* Unicode arrow symbol *!*/
-/*    font-size: 1rem;*/
-/*    margin-left: 5px;*/
-/*    display: inline-block;*/
-/*}*/
-
-/* Change color on hover if desired */
-.other-projects a:hover {
-    text-decoration: underline;
-    color: #003366;
+/* Base settings for all project links to ensure consistency */
+a.project-link, .other-projects a {
+    text-decoration: none; /* No underline by default */
+    color: inherit; /* Inherits color from parent unless specified */
+    display: block; /* Makes the link block level if needed */
 }
 
-/* Ensure links within .other-projects do not show blue underline */
-.other-projects a {
-    text-decoration: none;
-    color: inherit;
+/* Hover effects for all project links */
+a.project-link:hover, .other-projects a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #003366; /* Specific hover color */
 }
 
-
-/* Ensure links are more apparent on mobile devices */
+/* Media query for mobile devices */
 @media (max-width: 768px) {
-    .other-projects a {
-        text-decoration: underline; /* Add underline to links on mobile */
-        color: #003366; /* Change color to make links stand out */
+    h2 {
+        font-size: 25px; /* Smaller font size for mobile to ensure readability and consistency */
     }
 
-    .container-fluid > p {
-        font-size: 2rem; /* Adjust as needed */
-    }
-
-    /* Optionally, you can add a specific color to indicate links */
-    .other-projects a::after {
-        color: #003366; /* Ensure the arrow is visible */
+    .other-projects a, a.project-link {
+        text-decoration: underline; /* Ensures underline is visible on mobile */
+        color: #003366; /* Ensures color stands out on mobile */
     }
 
     .container-fluid {
-        height: 125px; /* Half of the original 250px height */
+        height: 125px; /* Adjusts container height for mobile */
     }
 
-    /* Margin for projects section */
-    .projects-div {
-        margin-top: 65px;
-        margin-top: 65px;
+    .container-fluid > p {
+        font-size: 20px; /* Adjusts font size for readability on mobile */
     }
 
-    /* Margin for other projects section */
-    .other-projects {
-        margin-top: 65px;
+    .projects-div, .other-projects {
+        margin-top: 65px; /* Uniform margin for mobile */
     }
 
     .margin-top-100 {
-        margin-top: 75px !important;
+        margin-top: 75px !important; /* Ensures consistent spacing */
     }
-
 }
 
 /* Styles for project items */
