@@ -112,6 +112,17 @@ a.project-link:hover, .other-projects a:hover {
     }
 }
 
+/* Media query for devices with max-width of 992px */
+@media (max-width: 992px) {
+    .carousel-caption a.btn {
+        display: none; /* Hides the 'See the Code' buttons in carousels on smaller screens */
+    }
+}
+
+
+
+
+
 /* Styles for project items */
 .project-item {
     text-align: center;
