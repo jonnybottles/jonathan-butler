@@ -105,6 +105,11 @@ a.project-link:hover, .other-projects a:hover {
     .carousel-caption a.btn {
         display: none; /* Hides the button */
     }
+
+
+    #red-empire_carousel, #secure-password-manager_carousel {
+        max-width: 100% !important; /* Overrides inline style on mobile for both carousels */
+    }
 }
 
 /* Styles for project items */
