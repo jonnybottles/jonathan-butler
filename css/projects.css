@@ -90,7 +90,7 @@ a.project-link:hover, .other-projects a:hover {
     }
 
     .container-fluid > p {
-        font-size: 20px; /* Adjusts font size for readability on mobile */
+        font-size: 2rem; /* Adjust to match the HONORS AND ACTIVITIES title */
     }
 
     .projects-div, .other-projects {
