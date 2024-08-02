@@ -53,7 +53,7 @@ body {
 }
 
 .containers-with-border {
-    border: 3px solid; /* Adjust the border size and color as needed */
+    border: 3px solid #711DB0; /* Purple border */
     padding: 20px; /* Optional: Add padding inside the border for better spacing */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     max-width: 1100px;
@@ -68,18 +68,6 @@ body {
 
 #skills-section li {
     margin-bottom: 10px;
-}
-
-.cybersecurity-container {
-    border-color: #711DB0;
-}
-
-.software-development-container {
-    border-color: #C21292;
-}
-
-.system-network-admin-container {
-    border-color: #FFA732;
 }
 
 .footer-container {
@@ -105,12 +93,6 @@ body {
     /*    margin-bottom: 5px; !* Reduce margin for mobile *!*/
     /*}*/
 
-    .cybersecurity-container,
-    .software-development-container,
-    .system-network-admin-container {
-        border-width: 2px; /* Reduce border size for mobile */
-    }
-
     #skills-section {
         margin-top: 65px; /* Match the honors and activities page */
     }
@@ -118,5 +100,4 @@ body {
     .footer-container {
         margin-top: 25px; /* Reduce top margin for mobile */
     }
-
 }
