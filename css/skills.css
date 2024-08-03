@@ -74,12 +74,16 @@ body {
     border-color: #711DB0;
 }
 
-.software-development-container {
+
+
+.system-network-admin-container {
+
     border-color: #C21292;
 }
 
-.system-network-admin-container {
-    border-color: #FFA732;
+.software-development-container {
+    /*border-color: #FFA732;*/
+    border-color: #4682B4;
 }
 
 .footer-container {
