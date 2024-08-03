@@ -90,6 +90,13 @@ body {
     text-align: center; /* Center align the text */
 }
 
+/* Align bullets with bold text */
+.feature ul {
+    list-style-position: inside; /* Ensure bullets are inside the list item box */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
+}
+
 /* Mobile Optimizations */
 @media (max-width: 768px) {
     .container-fluid {
