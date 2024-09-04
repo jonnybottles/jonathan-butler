@@ -74,16 +74,31 @@ body {
     border-color: #711DB0;
 }
 
-.software-development-container {
+
+
+.system-network-admin-container {
+
     border-color: #C21292;
 }
 
-.system-network-admin-container {
-    border-color: #FFA732;
+.software-development-container {
+    /*border-color: #FFA732;*/
+    border-color: #4682B4;
 }
 
 .footer-container {
     margin-top: 50px;
+}
+
+.professional-summary {
+    text-align: center; /* Center align the text */
+}
+
+/* Align bullets with bold text */
+.feature ul {
+    list-style-position: inside; /* Ensure bullets are inside the list item box */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0; /* Remove default margin */
 }
 
 /* Mobile Optimizations */
@@ -101,9 +116,9 @@ body {
         font-size: 2rem; /* Adjust font size for mobile */
     }
 
-    .top-nav-bar li {
-        margin-bottom: 5px; /* Reduce margin for mobile */
-    }
+    /*.top-nav-bar li {*/
+    /*    margin-bottom: 5px; !* Reduce margin for mobile *!*/
+    /*}*/
 
     .cybersecurity-container,
     .software-development-container,
@@ -119,7 +134,4 @@ body {
         margin-top: 25px; /* Reduce top margin for mobile */
     }
 
-    .container-fluid > p {
-        font-size: 2rem; /* Adjust as needed */
-    }
 }
