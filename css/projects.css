@@ -113,7 +113,7 @@ a.project-link:hover, .other-projects a:hover {
     }
 
 
-    #red-empire_carousel, #secure-password-manager_carousel {
+    #hawk_carousel #red-empire_carousel, #secure-password-manager_carousel {
         max-width: 100% !important; /* Overrides inline style on mobile for both carousels */
     }
 }
