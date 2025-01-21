@@ -48,6 +48,11 @@ h2 {
     margin-top: 30px;
 }
 
+.carousel-item img {
+    border-radius: 15px; /* Adds a subtle rounding effect */
+    overflow: hidden; /* Ensures the image content respects the border radius */
+}
+
 .margin-top-100 {
     margin-top: 100px !important;
 }
