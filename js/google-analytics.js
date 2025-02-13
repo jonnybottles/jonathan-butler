@@ -1,5 +1,4 @@
 // analytics.js
-// Add Tag
 (function() {
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
