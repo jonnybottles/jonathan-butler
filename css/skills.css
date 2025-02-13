@@ -135,3 +135,60 @@ body {
     }
 
 }
+
+/* Button group styles */
+.experience-btn-group {
+    display: flex;
+    gap: 20px;  /* Add space between buttons */
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Individual button styles */
+.experience-btn {
+    padding: 10px 25px;
+    border: 2px solid #212529;
+    background-color: transparent;
+    color: #212529;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+/* Hover state */
+.experience-btn:hover {
+    background-color: #2125291a;
+    transform: translateY(-2px);
+}
+
+/* Active state */
+.experience-btn.active {
+    background-color: #212529;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation classes */
+.experience-content {
+    transition: opacity 0.4s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+    .experience-btn-group {
+        gap: 10px;
+    }
+    
+    .experience-btn {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+}
