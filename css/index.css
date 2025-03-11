@@ -45,7 +45,8 @@ hr {
 /* Social connection section styles */
 #connect {
     margin-top: 5px; /* Reduced from 15px to 5px */
-    margin-bottom: 30px; /* Reduced from 50px to 30px */
+    margin-bottom: 0px; /* Reduced from 50px to 30px */
+    padding-bottom: 0px;
     padding-top: 5px; /* Reduced from 10px to 5px */
   }
 
@@ -85,7 +86,8 @@ hr {
     }
 
     hr {
-        margin: 0.5rem auto; /* Smaller margin on mobile */
+        margin-top: 0px; /* Smaller margin on mobile */
+        margin-bottom: 0px;
     }
 
     .hr-container {
