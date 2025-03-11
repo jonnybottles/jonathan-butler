@@ -1,44 +1,73 @@
 /* index.css */
 .top-nav-bar {
-    position: fixed;
-    top: -100px; /* Initially positioned above the viewport */
-    left: 0;
+    position: static; /* Changed from fixed to static */
+    top: 0; /* Removed the negative positioning */
     width: 100%;
     z-index: 1000; /* Ensure it appears above other content */
     display: block; /* Ensure it is displayed */
 }
 
 .footer-container {
-    position: relative;
-    bottom: -100px; /* Hide it initially below the viewport */
+    position: relative; /* Changed from fixed to relative */
+    bottom: 0; /* Removed the negative positioning */
     width: 100%;
-    z-index: 1000; /* Ensure it appears above other content */
-    transition: bottom 0.75s; /* Smooth transition for bottom property */
+    z-index: 1000;
+    background-color: white;
+    margin-top: 50px;
 }
 
-.hidden {
-    visibility: hidden;
-}
+/* Enhanced horizontal rule styling */
+hr {
+    width: 80%;
+    margin: 1rem auto; /* Reduced from 2rem to 1rem */
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05));
+  }
+  
+  .hr-container {
+    margin-top: 0; /* Reduced from 5px to 0 */
+    margin-bottom: 0; /* Reduced from 5px to 0 */
+  }
+  
+  .headshot-div {
+    margin-top: 100px;
+    margin-bottom: 5px; /* Reduced from 10px to 5px */
+  }
 
-.headshot-div {
-    margin-top: 200px;
-}
-
-.jon-head-shot-hi {
-    visibility: hidden;
-}
-
-.cybersecurity-professional {
-    visibility: hidden;
-}
 
 .jon-head-shot {
     min-height: 100px;
     max-height: 350px;
 }
 
-.footer-container {
-    margin-top: 50px;
+
+/* Social connection section styles */
+#connect {
+    margin-top: 5px; /* Reduced from 15px to 5px */
+    margin-bottom: 30px; /* Reduced from 50px to 30px */
+    padding-top: 5px; /* Reduced from 10px to 5px */
+  }
+
+.social-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.social-link:nth-child(1):hover {
+    background-color: rgba(10, 102, 194, 0.1); /* LinkedIn blue background */
+}
+
+.social-link:nth-child(2):hover {
+    background-color: rgba(51, 51, 51, 0.1); /* GitHub dark background */
 }
 
 /* Mobile specific styles */
@@ -52,20 +81,22 @@
         margin-top: 0;
         padding-bottom: 0;
         padding-top: 40px;
+        margin-bottom: 0px; /* Reduced from 5px to 0px */
     }
 
-    .footer-container {
-        bottom: 0;
-        position: relative;
-        margin-top: 0px;
+    hr {
+        margin: 0.5rem auto; /* Smaller margin on mobile */
     }
 
-    .hidden {
-        visibility: visible;
+    .hr-container {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
-    .jon-head-shot-hi,
-    .cybersecurity-professional {
-        visibility: visible;
+    /* Social connection section styles */
+    #connect {
+        margin-top: 0px; /* Reduced from 5px to 0px */
+        margin-bottom: 30px;
+        padding-top: 10px; /* Reduced from 50px to 10px */
     }
 }
