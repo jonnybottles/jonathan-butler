@@ -192,3 +192,18 @@ body {
         font-size: 0.9rem;
     }
 }
+
+/* Footer social icon styling */
+.footer-container .bi-linkedin {
+    fill: #0A66C2; /* LinkedIn brand blue */
+}
+
+.footer-container svg {
+    width: 32px; /* Increased from 24px */
+    height: 32px; /* Increased from 24px */
+    transition: transform 0.3s ease;
+}
+
+.footer-container .nav a:hover svg {
+    transform: scale(1.1);
+}
