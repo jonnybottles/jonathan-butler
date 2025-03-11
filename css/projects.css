@@ -38,6 +38,7 @@ h2 {
     margin-top: 100px;
 }
 
+
 /* Margin for other projects section */
 .other-projects {
     margin-top: 100px;
@@ -46,6 +47,11 @@ h2 {
 /* Margin for carousel items */
 .carousel-inner {
     margin-top: 30px;
+}
+
+.carousel-item img {
+    border-radius: 15px; /* Adds a subtle rounding effect */
+    overflow: hidden; /* Ensures the image content respects the border radius */
 }
 
 .margin-top-100 {
@@ -107,7 +113,7 @@ a.project-link:hover, .other-projects a:hover {
     }
 
 
-    #red-empire_carousel, #secure-password-manager_carousel {
+    #hawk_carousel, #red-empire_carousel, #secure-password-manager_carousel {
         max-width: 100% !important; /* Overrides inline style on mobile for both carousels */
     }
 }
