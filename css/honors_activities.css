@@ -94,6 +94,14 @@ h2 {
     color: #003366;
 }
 
+.talk-title {
+    display: block;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
 /* Adjust font size for mobile devices */
 @media (max-width: 768px) {
     .honors-activities-content {
