@@ -80,7 +80,7 @@
 	<div class="modal-dialog modal-lg modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="imageModalLabel">Congratulatory Letter From U.S. Cybersecurity Coordinator</h5>
+				<h5 class="modal-title" id="imageModalLabel">Document</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">
@@ -98,6 +98,11 @@
 			<strong>BSides Charm City Conference Speaker</strong><br>
 			<span class="talk-title">Closing the Visibility Gap: Threat Hunting with Hawk in the Microsoft Cloud</span>
 			<em>2025</em><br>
+			<br>
+		</bar>
+			<a href="https://youtu.be/DKkgpjYxudw?si=rFp-S3WEJ5HCSCa_" target="_blank" class="honors-link" style="text-decoration: none; font-weight: normal;">
+				🎥 Watch Talk
+			</a>
 		</p>
 		<p class="honors-activities-content"><strong>KubeCon Conference Attendee</strong><br>
 			<em>2024</em>
@@ -132,7 +137,7 @@
 				<a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
 					<svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
 				</a>
-				<span class="mb-3 mb-md-0 text-body-secondary">© 2024</span>
+				<span class="mb-3 mb-md-0 text-body-secondary">© 2025</span>
 			</div>
 			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
 				<li class="ms-3">
@@ -158,6 +163,10 @@
 <script>
     function showImage(src) {
         document.getElementById('modalImage').src = src;
+    }
+    
+    function updateModalTitle(title) {
+        document.getElementById('imageModalLabel').textContent = title;
     }
 </script>
 
