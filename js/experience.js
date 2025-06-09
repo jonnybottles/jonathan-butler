@@ -4,12 +4,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const experienceContent = document.getElementById('experienceContent');
 
     // Store the industry version (current content)
-    const industryContent = experienceContent.innerHTML;
-
-    // DoD version of the content
+    const industryContent = experienceContent.innerHTML;    // DoD version of the content
     const dodContent = `
         <div class="feature col">
-            <h3 class="fs-5 text-body-emphasis">2022 - Present <br> Captain – Major <br> Director Development Operations Group <br> Marine Corps Forces Cyberspace Command</h3>
+            <h3 class="fs-5 text-body-emphasis">May 2025 - Present <br> Microsoft Fellow, AI Engineer <br> Microsoft</h3>
+            <ul>
+                <li>Contributed to the design and development of a cloud-native multi-agent architecture utilizing Azure AI Foundry, Azure Open AI Service, C#, Python, and the Semantic Kernel SDK creating advanced generative AI solutions to enable security operations.</li>
+                <li>Leveraged open-source tools to conduct comparative evaluations between conventional software analysis techniques and AI-powered approaches, establishing and implementing effective evaluation criteria.</li>
+                <li>Implemented end-to-end solutions leveraging HTML, CSS, JavaScript, C#, and Azure Functions, ensuring robust integration and seamless user experiences within Azure environments.</li>
+            </ul>
+        </div>
+        <div class="feature col">
+            <h3 class="fs-5 text-body-emphasis">2022 - 2025 <br> Captain – Major <br> Director Development Operations Group <br> Marine Corps Forces Cyberspace Command</h3>
             <ul>
                 <li>Led a team of 30+ developers to ensure the secure development and timely delivery of multiple cyberspace capabilities, significantly improving supported command operational capabilities.</li>
                 <li>Developed multiple Infrastructure as Code (IaC) solutions, automating the deployment and secure configuration of IT infrastructure, drastically reducing time and costs associated with conducting cyberspace operations and enhancing the overall cybersecurity posture of the organization.</li>
