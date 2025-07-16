@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="feature col">
             <h3 class="fs-5 text-body-emphasis">May 2025 - Present <br> Microsoft Fellow, AI Engineer <br> Microsoft</h3>
             <ul>
-                <li>Contributed to the design and development of a cloud-native multi-agent architecture utilizing Azure AI Foundry, Azure Open AI Service, C#, Python, and the Semantic Kernel SDK creating advanced generative AI solutions to enable security operations.</li>
+                <li>Contributed to the design and development of a cloud-native, AI enabled application utilizing Azure AI Foundry, Azure Open AI Service, C#, Python, and the Semantic Kernel SDK creating advanced generative AI solutions to enable security operations.</li>
                 <li>Leveraged open-source tools to conduct comparative evaluations between conventional software analysis techniques and AI-powered approaches, establishing and implementing effective evaluation criteria.</li>
                 <li>Implemented end-to-end solutions leveraging HTML, CSS, JavaScript, C#, and Azure Functions, ensuring robust integration and seamless user experiences within Azure environments.</li>
             </ul>
