@@ -7,7 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
     const industryContent = experienceContent.innerHTML;    // DoD version of the content
     const dodContent = `
         <div class="feature col">
-            <h3 class="fs-5 text-body-emphasis">May 2025 - Present <br> Microsoft Fellow, AI Engineer <br> Microsoft</h3>
+            <h3 class="fs-5 text-body-emphasis">August 2025 - Present <br> Solutions Engineer - Innovate Apps and AI <br> Microsoft</h3>
+            <ul>
+                <li>Partner with enterprise customers to design, develop, and implement AI-driven application solutions using Azure AI Foundry, Azure OpenAI Service, and modern cloud architectures, building hands-on proof-of-concepts that demonstrate secure, scalable generative AI adoption.</li>
+                <li>Lead end-to-end technical engagements by translating customer requirements into working AI solution prototypes, developing agent workflows, Model Context Protocol (MCP) integrations, API gateways, and cloud-native application components.</li>
+                <li>Accelerate customer AI initiatives by coding and delivering production-grade demonstrations, integrating enterprise data sources, and advising on architecture, governance, and deployment patterns to operationalize AI in real-world environments.</li>
+            </ul>
+        </div>
+        <div class="feature col">
+            <h3 class="fs-5 text-body-emphasis">May 2025 - August 2025 <br> Microsoft Fellow, AI Engineer <br> Microsoft</h3>
             <ul>
                 <li>Contributed to the design and development of a cloud-native, AI enabled application utilizing Azure AI Foundry, Azure Open AI Service, C#, Python, and the Semantic Kernel SDK creating advanced generative AI solutions to enable security operations.</li>
                 <li>Leveraged open-source tools to conduct comparative evaluations between conventional software analysis techniques and AI-powered approaches, establishing and implementing effective evaluation criteria.</li>
